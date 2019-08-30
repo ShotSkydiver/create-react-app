@@ -78,7 +78,7 @@ function prepareUrls(protocol, host, port) {
 
 function printInstructions(appName, urls, useYarn) {
   console.log();
-  console.log(`You can now view ${chalk.bold(appName)} in the browser.`);
+  console.log(`You can now view your local Ambi instance in the browser.`);
   console.log();
 
   if (urls.lanUrlForTerminal) {

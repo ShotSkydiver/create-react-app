@@ -1,10 +1,10 @@
 {
-  "name": "react-dev-utils",
+  "name": "ambi-react-dev-utils",
   "version": "9.0.3",
-  "description": "Webpack utilities used by Create React App",
+  "description": "Modified webpack utilities used by Create React App",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/ShotSkydiver/create-react-app.git",
     "directory": "packages/react-dev-utils"
   },
   "license": "MIT",
