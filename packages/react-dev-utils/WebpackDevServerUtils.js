@@ -216,6 +216,7 @@ function createCompiler({
     }
     if (isSuccessful && (isInteractive || isFirstCompile)) {
       printInstructions(appName, urls, useYarn);
+      process.send('ready');
     }
     isFirstCompile = false;
 
